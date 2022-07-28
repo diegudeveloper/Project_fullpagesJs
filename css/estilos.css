@@ -33,13 +33,90 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/media/shoes1.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("/media/shoes1.jpg"); */
+    background-image: url(/media/shoes1.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 
-.header .textFerrari {
+.header .titulo {
     font-size: 3rem;
 }
+
+.header .contenedor-titulo {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.header .contenedor-icono {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+}
+
+#fp-nav ul li a span {
+    background-color: orange;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: orange;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 70;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.nav li.active {
+    border-bottom: 2px solid orange;
+}
+
+.nav li.active a {
+    color: orange;
+}
+
+.nav li,
+.nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    color: #c2c2c2;
+}
+
+.contenedor-icono {
+    position: absolute;
+    z-index: 99;
+    bottom: 3%;
+    left: 50%;
+    animation: bajar-subir 1s ease infinite;
+}
+
+.contenedor-icono p {
+    text-align: center;
+    bottom: 0;
+}
+
+.contenedor-icono p a .iconoArrow {
+    width: 7%;
+    fill: #fff;
+}
+
+@keyframes bajar-subir {
+    0% { transform: translateY(20%);}
+    25% { transform: translateY(0%);}
+    100% { transform: translateY(20%);}
+}
+
+
