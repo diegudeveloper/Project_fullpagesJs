@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .nav li, .nav a {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .nav .menu {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .nav .marca {
+        width: 100%;
+    }
+    
+    .nav li, .nav a {
+        font-size: 0.6rem;
+    }
+}
