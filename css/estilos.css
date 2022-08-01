@@ -143,6 +143,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     position: relative;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child {
+    scroll-snap-align: star;
 }
 
 .container .card {
