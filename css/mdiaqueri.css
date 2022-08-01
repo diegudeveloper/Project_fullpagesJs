@@ -12,6 +12,10 @@
 
 
 @media screen and (max-width: 450px) {
+
+    /* .container .card {
+        width: 100%;
+    } */
     /* .nav .menu {
         display: flex;
         flex-wrap: wrap;
