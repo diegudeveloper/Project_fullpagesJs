@@ -342,7 +342,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .container .card:hover .imgBx {
-        transform: translateX(-35%);
+        transform: translateX(-36%) rotate(28deg);;
+        
     }
 
     .container .card:hover .contentBx {
