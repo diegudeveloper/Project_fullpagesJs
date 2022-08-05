@@ -133,10 +133,21 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Productos */
 
+.productos {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    top: 2.5rem;
+    color: #c2c2c2;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
 .containerProductos {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     min-height: 100vh;
     background-color: #131313;
 }
@@ -173,6 +184,7 @@ h1, h2, h3, h4, h5, h6 {
     clip-path: circle(150px at 80px 20px);
     transition: 0.5s ease-in-out;
 }
+
 
 .container .card:hover::before {
     clip-path: circle(300px at 80% -20%);
@@ -326,6 +338,23 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0.75s;
 }
 
+@media screen and (max-width: 1024px) {
+    .containerProductos .productos {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container .card {
+        width: 30%;
+    }
+
+    .container .card .imgBx img {
+        width: 85%;
+    }
+}
+
 
 @media screen and (max-width: 450px) {
     /*.container {
@@ -334,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
     }*/
     .container .card {
         width: 90%;
-        height: 200px;
+        height: 170px;
         margin: 1rem auto;
         scroll-snap-align: start;
     } 
@@ -348,10 +377,18 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .container .card:hover .contentBx {
-        height: 180px;
+        height: 170px;
     }
 
-}
+    .nav li, .nav a {
+        font-size: 0.7rem;
+    }
 
-/*new shoes color #A9110C*/
-/*new shoes color #C0E504*/
+    .container .card .contentBx a {
+        padding: 5px 10px;
+    }
+
+    .containerProductos .productos {
+        font-size: 1rem;
+    }
+}
