@@ -338,6 +338,20 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0.75s;
 }
 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     .containerProductos .productos {
         font-size: 2rem;
