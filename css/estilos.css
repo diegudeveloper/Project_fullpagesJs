@@ -388,6 +388,25 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 
+/*------------------------------*/
+/*flechas slide*/
+/*------------------------------*/
+
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    top: 95%;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 80%;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #ffa500 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #ffa500 ;
+}
 
 
 
