@@ -343,17 +343,50 @@ h1, h2, h3, h4, h5, h6 {
  /*productos*/
  /*------------------------------*/
 
- .produ article {
+.produ article {
     background-position: center;
     background-size: cover;
- }
+}
 
- .produ article:nth-child(2) {
+.produ article:nth-child(2) {
     background-image: url(../media/producto-01.jpg);
- }
- .produ article:nth-child(3) {
+}
+
+.produ article:nth-child(3) {
     background-image: url(../media/producto-02.jpg);
- }
+}
+
+.produ .informacion-productos {
+    margin: 0 30px;
+}
+
+.produ .informacion-productos::before {
+    content: "";
+    height: 50px;
+    width: 2px;
+    display: inline-block;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    margin: -10px;
+}
+
+.produ .modelo {
+    font-size: 45px;
+}
+
+.produ .descripcion {
+    font-size: 22px;
+}
+
+.produ .precio {
+    font-size: 25px;
+}
+
+.produ .precio::before {
+    content: "$";
+    display: inline-block;
+}
 
 
 
