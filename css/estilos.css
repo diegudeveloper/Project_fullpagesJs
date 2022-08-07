@@ -339,7 +339,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
- 
+ /*------------------------------*/
+ /*productos*/
+ /*------------------------------*/
+
+ .produ article {
+    background-position: center;
+    background-size: cover;
+ }
+
+ .produ article:nth-child(2) {
+    background-image: url(../media/producto-01.jpg);
+ }
+ .produ article:nth-child(3) {
+    background-image: url(../media/producto-02.jpg);
+ }
+
 
 
 
