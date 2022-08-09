@@ -41,11 +41,6 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
 }
 
-.header .titulo {
-    font-size: 4rem;
-    font-weight: bold;
-}
-
 .header .textoMain {
     text-align: center;
     font-size: 1.5rem;
@@ -55,6 +50,16 @@ h1, h2, h3, h4, h5, h6 {
 .header .contenedor-titulo {
     font-size: 1.3rem;
     text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.header .titulo {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
 }
 
 .header .contenedor-icono {
@@ -63,6 +68,42 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 3%;
     left: 50%;
 }
+
+ /*------------------------------*/
+ /*video*/
+ /*------------------------------*/
+
+ .bg-video {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+}
+
+.video .contenedor-titulo {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+.video .titulo {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+ /*------------------------------*/
+ /*video*/
+ /*------------------------------*/
 
 #fp-nav ul li a span {
     background-color: orange;
@@ -407,14 +448,6 @@ h1, h2, h3, h4, h5, h6 {
     border-width: 20px 0 20px 20px;
     border-color: transparent transparent transparent #ffa500 ;
 }
-
-
-
-
-
-
-
-
 
 
 
