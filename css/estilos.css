@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/media/shoesbg.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../media/shoesbg.jpg); 
     /* background-image: url(/media/shoesbg.jpg); */
     background-position: center;
     background-size: 100% 100%;
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .footer{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(/media/producto-03.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../media/producto-03.jpg); 
         /* background-image: url(/media/shoesbg.jpg); */
     background-position: center;
     background-size: 100% 100%;
