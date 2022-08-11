@@ -489,6 +489,9 @@ h1, h2, h3, h4, h5, h6 {
     .header .textoMain {
         font-size: 0.8rem;
     }
+    .container {
+        margin-bottom: 10px;
+    }
     .container .card {
         width: 90%;
         height: 125px;
@@ -544,5 +547,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     .produ .informacion-productos::before {
         top: 72%;
+    }
+
+    .productos {
+        top: 4rem;
     }
 }
