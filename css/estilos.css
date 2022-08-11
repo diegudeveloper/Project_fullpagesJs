@@ -484,7 +484,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 450px) {
     .header .titulo {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    .header .textoMain {
+        font-size: 1rem;
     }
     .container .card {
         width: 90%;
