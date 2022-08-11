@@ -505,8 +505,28 @@ h1, h2, h3, h4, h5, h6 {
         height: 170px;
     }
 
-    .nav li, .nav a {
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav li {
+        margin: 10px 2px;
+    }
+
+    .nav .marca {
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .nav a {
         font-size: 0.7rem;
+    }
+
+    .nav .menu {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .container .card .contentBx a {
